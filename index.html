@@ -3,46 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jonash Ngayrk | Portfolio</title>
+  <title>Jonash | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Navbar -->
+  <!-- Navigation -->
   <header>
-    <h1 class="logo">Jonash Ariel S. Nogra</h1>
+    <h1 class="logo">PROFILE PORTFOLIO</h1>
     <nav>
       <ul>
-        <li><a href="#">Springwoods Minglanilla Cebu</a></li>
-        <li><a href="#">Aug 1, 2004</a></li>
-        <li><a href="#">09617204116</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="left">
-      <h2>Hello I'm <span>Jonash</span> 👋</h2>
-      <p class="role">IT Student • Aspiring Analyst</p>
-      <p class="desc">
-        I'm an IT student from St. Cecilia's College, passionate about systems, logic, and building meaningful technology. I aim to grow into a skilled IT Analyst.
-      </p>
-    </div>
-    <div class="right">
-      <img src="me.png" alt="Profile Picture" />
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="content">
+      <div class="text">
+        <h2>Hello, I'm Jonash 👋</h2>
+        <p class="subtitle">IT Student • Aspiring Analyst</p>
+        <p>
+          I'm currently studying at St. Cecilia's College and passionate about solving real-world problems through systems and analysis.
+        </p>
+      </div>
+      <div class="image">
+        <img src="me.png" alt="My Photo">
+      </div>
     </div>
   </section>
 
   <!-- Skills Section -->
-  <section class="skills">
-    <h3>Skills & Languages</h3>
-    <ul>
-      <li>C</li>
-      <li>HTML</li>
-      <li>Java</li>
-      <li>PHP</li>
-    </ul>
+  <section id="skills" class="section light">
+    <div class="content centered">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>C</li>
+        <li>HTML</li>
+        <li>Java</li>
+        <li>PHP</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="content centered">
+      <h2>Contact Me</h2>
+      <p>📍 Springwoods Minglanilla Cebu</p>
+      <p>📞 0961 720 4116</p>
+      <p>📧 Email: your.email@example.com</p>
+    </div>
   </section>
 
 </body>
