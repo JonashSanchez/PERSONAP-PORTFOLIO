@@ -1,63 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jonash | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav>
+    <a href="#home">Home</a>
+   
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <!-- Navigation -->
-  <header>
-    <h1 class="logo">PROFILE PORTFOLIO</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <section id="home" class="my-details">
+  <div class="my-content">
+    <img src="me.png" alt="Profile Picture" class="profile-pic" />
+    <div class="text-content">
+      <p class="subtitle">THIRD YEAR IT STUDENT</p>
+      <h2>About Me</h2>
+      <p>I'm currently studying at St. Cecilia's College and passionate about solving real-world problems through systems and analysis.</p>
+    </div>
+  </div>
+</section>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="content">
-      <div class="text">
-        <h2>Hello, I'm Jonash 👋</h2>
-        <p class="subtitle">IT Student • Aspiring Analyst</p>
-        <p>
-          I'm currently studying at St. Cecilia's College and passionate about solving real-world problems through systems and analysis.
-        </p>
-      </div>
-      <div class="image">
-        <img src="me.png" alt="My Photo">
-      </div>
+
+  <section id="projects">
+    <h2>PROJECTS</h2>
+    <div class="project">
+      <h3>RHU Appointment System</h3>
+      <p>Java application with database integration</p>
+    </div>
+    <div class="project">
+      <h3>Clothing Store</h3>
+      <p>E-commerce site with PHP/MySQL</p>
     </div>
   </section>
 
-  <!-- Skills Section -->
-  <section id="skills" class="section light">
-    <div class="content centered">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>C</li>
-        <li>HTML</li>
-        <li>Java</li>
-        <li>PHP</li>
-      </ul>
-    </div>
+  <section id="contact">
+    <h2>My Contacts</h2>
+    <p>Email: jonashsanchez@gmail.com</p>
+    <p>GitHub: github.com/JonashSanchez</p>
+     <p>No: 09617294116</p>
   </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section contact">
-    <div class="content centered">
-      <h2>Contact Me</h2>
-      <p>📍 Springwoods Minglanilla Cebu</p>
-      <p>📞 0961 720 4116</p>
-      <p>📧 Email: your.email@example.com</p>
-    </div>
-  </section>
-
 </body>
 </html>
